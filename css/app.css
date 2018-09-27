@@ -2,6 +2,10 @@ body {
   background-color: #F9FFF6;
   font-family: "Poppins", sans-serif; }
 
+.wrapper {
+  margin: 0 auto;
+  width: 800px; }
+
 header {
   width: 100%;
   background: #222;
@@ -66,10 +70,6 @@ footer .footer-container {
     color: white;
     margin: 0 auto;
     padding: 100px; }
-
-.card-container {
-  margin: 0 auto;
-  width: 800px; }
 
 .about-card {
   width: 100%;
