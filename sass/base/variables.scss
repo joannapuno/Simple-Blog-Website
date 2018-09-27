@@ -1,5 +1,17 @@
-$primary-color: "#ff0000";
-$secondary-color: "#00ff00";
-$accent-color: "#0000ff";
-$header-font: "font-family: sans serif";
-$p-font: "font-family: sans serif";
+// Font
+$font-family: 'Poppins', sans-serif;
+
+// All fonts will be black except for the main h1's i guesss?
+
+// Background Colors
+// ***************************************
+// Color for header and footer background
+$head-foot-bg: #FE5F55; 
+
+// Color for main content background, it's an off-white
+$content-bg: #F9FFF6;
+
+// Color for background of banners on the About and Blog pages.
+// ( behind the headings 'ABOUT' and 'BlOg-NAME' )
+$banner-bg: #65c3cd;
+

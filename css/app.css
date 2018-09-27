@@ -1,3 +1,7 @@
+body {
+  background-color: #F9FFF6;
+  font-family: "Poppins", sans-serif; }
+
 header {
   width: 100%;
   background: #222;
@@ -39,8 +43,8 @@ footer .footer-container {
 
 .banner {
   width: 100%;
-  height: 250px;
-  background-color: crimson;
+  height: 200px;
+  background-color: #65c3cd;
   margin-bottom: 40px; }
   .banner h1 {
     color: white;
@@ -54,17 +58,21 @@ footer .footer-container {
 .about-card {
   width: 100%;
   height: 200px;
-  border: 1px solid black;
+  padding: 10px;
   margin: 10px 0px;
   display: flex;
   align-items: center; }
 
 .about-img-container {
   width: 180px;
-  height: 180px;
-  background-color: lightblue; }
+  height: 180px; }
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  background-color: #222; }
 
 .about-info {
-  padding: 10px;
+  padding: 20px;
   display: block;
   width: 75%; }
