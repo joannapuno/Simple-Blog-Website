@@ -1,6 +1,6 @@
 header {
-    height: 60px;
-    background: #222;  
+    height: 80px;
+    background: $head-foot-bg;  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,6 +13,7 @@ header {
    
         .logo-container {  
         margin-right: auto;
+        margin-left: 50px;
         
         }
 
@@ -42,7 +43,7 @@ header {
 
         li {
             align-items: center;
-            margin-right: 30px;
+            margin-right: 50px;
         }
 }
 
