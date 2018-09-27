@@ -1,9 +1,15 @@
+@import './base/variables.scss';
+@import './base/mixins.scss';
+@import './base/layout.scss';
 
+@import './components/header.scss';
+@import './components/hero.scss';
+@import './components/footer.scss';
+@import './components/card.scss';
+@import './components/buttons.scss';
+@import './components/input.scss';
 
-
-
-
-
-
-
+@import './pages/home.scss';
 @import './pages/blog.scss';
+@import './pages/about.scss';
+  
