@@ -1,10 +1,25 @@
 footer {
-    background: red;
+    background: rgb(126, 125, 125);
     height: 200px;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    .footer-container {
+        padding: 30px 50px;
+    }
 }
 
+
+
+
 .social-icons {
-    background: pink;
-    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        color: #fff;
+        margin-left: 10px;
+    }
 }

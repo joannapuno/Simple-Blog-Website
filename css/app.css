@@ -1,8 +1,16 @@
 footer {
-  background: red;
+  background: #7e7d7d;
   height: 200px;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; }
+  footer .footer-container {
+    padding: 30px 50px; }
 
 .social-icons {
-  background: pink;
-  height: 100px; }
+  width: 100px;
+  display: flex;
+  justify-content: space-between; }
+  .social-icons i {
+    color: #fff;
+    margin-left: 10px; }
