@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    background: #222;
+    padding-top: 30px;
+    
+
+    span {
+        color: #fff;
+    }
+    
+    i {
+        color: #fff;
+        margin: 0px 10px;
+    }
+
+    a {
+        color: #fff;
+    }
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+
+}
