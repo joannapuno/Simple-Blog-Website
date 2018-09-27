@@ -1,3 +1,23 @@
+header {
+  width: 100%;
+  background: #222;
+  padding-top: 30px; }
+  header span {
+    color: #fff; }
+  header i {
+    color: #fff;
+    margin: 0px 10px; }
+  header a {
+    color: #fff; }
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start; }
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end; }
+
 footer {
   background: #7e7d7d;
   height: 150px;
