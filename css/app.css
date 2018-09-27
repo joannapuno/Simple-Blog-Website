@@ -7,8 +7,8 @@ body {
   width: 800px; }
 
 header {
-  height: 60px;
-  background: #222;
+  height: 80px;
+  background: #FE5F55;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -17,7 +17,8 @@ header {
     align-items: stretch;
     width: 100%; }
   header .logo-container {
-    margin-right: auto; }
+    margin-right: auto;
+    margin-left: 50px; }
   header span {
     color: #fff;
     margin-left: 5px; }
@@ -35,7 +36,7 @@ header {
     font-size: 15px; }
   header li {
     align-items: center;
-    margin-right: 30px; }
+    margin-right: 50px; }
 
 .hero {
   background: url("../img/hero-img.jpg");
@@ -45,8 +46,9 @@ header {
   background-position: 50% 70%;
   display: flex; }
   .hero .hero-content {
+    font-size: 20px;
     width: 80%;
-    color: green;
+    color: #FE5F55;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -54,14 +56,14 @@ header {
     align-items: center; }
 
 footer {
-  background: #7e7d7d;
+  background: #FE5F55;
   height: 150px;
   width: 100%;
   display: flex;
   justify-content: flex-end; }
 
 footer .footer-container {
-  padding: 30px 80px; }
+  padding: 30px 90px; }
 
 .social-icons {
   width: 100px;
