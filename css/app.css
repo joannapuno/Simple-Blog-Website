@@ -213,7 +213,13 @@ footer .footer-container {
   .banner h1 {
     color: white;
     margin: 0 auto;
-    padding: 100px; }
+    padding: 0px; }
+  .banner a, .banner p {
+    color: white;
+    text-decoration: none; }
+
+.banner-content {
+  padding: 80px; }
 
 .about-card {
   width: 100%;
