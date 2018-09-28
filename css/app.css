@@ -174,7 +174,8 @@ header {
   height: 350px;
   background-size: cover;
   background-position: 50% 70%;
-  display: flex; }
+  display: flex;
+  margin-bottom: 40px; }
   .hero .hero-content {
     font-size: 20px;
     width: 80%;
@@ -187,6 +188,7 @@ header {
   .hero .blog-1-img {
     background: url("../img/img-1.jpg");
     width: 100%;
+    background-size: cover;
     background-position: center; }
   .hero .blog-2-img {
     background: url("../img/img-2.jpg");
@@ -311,3 +313,6 @@ footer {
     color: #FE5F55; }
   .blog-para p {
     color: #000000; }
+  .blog-para a, .blog-para i {
+    color: #FE5F55;
+    text-decoration: none; }
