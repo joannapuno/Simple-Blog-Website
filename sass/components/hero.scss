@@ -1,5 +1,7 @@
 .hero {
+
     @include hero ('../img/hero-img.jpg');
+
     
     .hero-content {  
         font-size: 20px;       
@@ -11,4 +13,29 @@
         justify-content: flex-start;
         align-items: center;
     }
+
+
+    .blog-1-img {       
+        background: url('../img/img-1.jpg');
+        width: 100%;        
+        background-position: center;
+    
+    }
+    .blog-2-img {               
+        background: url('../img/img-2.jpg');
+        width: 100%;        
+        background-position: center;
+        background-size: cover;
+       
+
+
+    }
+    .blog-3-img {              
+        background: url('../img/img-3.jpg');
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
 }
+
+
