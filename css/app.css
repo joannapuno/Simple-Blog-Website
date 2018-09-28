@@ -38,22 +38,15 @@ header {
     align-items: center;
     margin-right: 50px; }
 
-.hero {
-  background: url("../img/hero-img.jpg");
-  width: 100%;
-  height: 350px;
-  background-size: cover;
-  background-position: 50% 70%;
-  display: flex; }
-  .hero .hero-content {
-    font-size: 20px;
-    width: 80%;
-    color: #FE5F55;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; }
+.hero .hero-content {
+  font-size: 20px;
+  width: 80%;
+  color: #FE5F55;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
 
 footer {
   background: #FE5F55;
@@ -74,6 +67,28 @@ footer .footer-container {
   color: #fff;
   margin-left: 20px; }
 
+.card {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center; }
+
+.card-img-container {
+  width: 180px;
+  height: 180px; }
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-color: #222; }
+
+.card-info {
+  padding: 20px;
+  display: block;
+  width: 75%; }
+
 .banner {
   width: 100%;
   height: 200px;
@@ -83,25 +98,3 @@ footer .footer-container {
     color: white;
     margin: 0 auto;
     padding: 100px; }
-
-.about-card {
-  width: 100%;
-  height: 200px;
-  padding: 10px;
-  margin: 10px 0px;
-  display: flex;
-  align-items: center; }
-
-.about-img-container {
-  width: 180px;
-  height: 180px; }
-
-.about-img {
-  width: 100%;
-  height: 100%;
-  background-color: #222; }
-
-.about-info {
-  padding: 20px;
-  display: block;
-  width: 75%; }
