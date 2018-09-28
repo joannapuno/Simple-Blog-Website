@@ -3,18 +3,22 @@ footer {
     height: 150px;
     width: 100%;
     display: flex;
-    justify-content: flex-end; }
-    footer .footer-container {
-      padding: 30px 90px; }
-  
+    justify-content: flex-end;
+    margin-top: 50px;
+
+   .footer-container {
+        padding: 30px 90px;
+     }
+    }
   .social-icons {
     width: 100px;
     display: flex;
-    justify-content: space-between; }
-    .social-icons i {
+    justify-content: space-between; 
+    i {
       color: #fff;
-      margin-left: 20px; }
-  
+      margin-left: 20px; 
+    }
+  }
   
   
   
