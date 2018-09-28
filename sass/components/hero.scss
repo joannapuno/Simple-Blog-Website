@@ -1,5 +1,5 @@
 .hero {
-    @include heroImgBG('../img/hero-img.jpg');
+    @include something ('../img/hero-img.jpg');
     
     .hero-content {  
         font-size: 20px;       
