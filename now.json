@@ -4,9 +4,9 @@
         "img",
         "css",
         "index.html",
-        "blog1",
-        "blog2",
-        "blog3",
-        "about"
+        "blog1.html",
+        "blog2.html",
+        "blog3.html",
+        "about.html"
     ]
 }
