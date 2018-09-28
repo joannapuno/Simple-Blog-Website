@@ -151,8 +151,7 @@ header {
     margin-right: auto;
     margin-left: 0; }
   header span {
-    color: #fff;
-    margin-left: 5px; }
+    color: #fff; }
   header i {
     color: #fff;
     margin-right: 5px; }
@@ -234,9 +233,11 @@ footer .footer-container {
     .about-card .about-info a {
       text-decoration: none; }
   .about-card h2 {
-    margin: 0 auto; }
+    margin: 0 auto;
+    color: #FE5F55; }
   .about-card p {
-    margin: 10px auto; }
+    margin: 10px auto;
+    color: #222; }
   @media (max-width: 600px) {
     .about-card {
       flex-direction: column;
