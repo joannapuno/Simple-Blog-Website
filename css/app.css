@@ -84,7 +84,7 @@ footer {
     width: 100px;
     display: flex;
     justify-content: space-between; }
-  footer i {
+  footer a {
     color: #fff;
     margin-left: 20px; }
 
