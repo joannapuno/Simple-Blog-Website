@@ -7,4 +7,8 @@
     p {
         color: $para-color;
     }
+    a, i{
+        color: $head-foot-bg;
+        text-decoration: none;
+    }
 }
