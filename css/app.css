@@ -183,7 +183,7 @@ header {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center; }
   .hero .blog-1-img {
     background: url("../img/img-1.jpg");
@@ -218,18 +218,6 @@ footer {
     color: #fff;
     margin-left: 20px; }
 
-.banner {
-  width: 100%;
-  margin-bottom: 40px; }
-  .banner h1 {
-    color: #FE5F55;
-    margin: 0 auto;
-    padding: 0px; }
-  .banner a, .banner p {
-    color: #FE5F55;
-    text-decoration: none; }
-  .banner .banner-content {
-    padding: 80px; }
 
 .about-card {
   width: 100%;
@@ -300,8 +288,6 @@ footer {
   line-height: 1.5em; }
   .blog-para h1 {
     color: #FE5F55; }
-  .blog-para p {
-    color: #000000; }
   .blog-para a, .blog-para i {
     color: #FE5F55;
     text-decoration: none; }
