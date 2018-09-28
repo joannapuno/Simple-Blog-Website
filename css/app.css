@@ -174,8 +174,7 @@ header {
   height: 350px;
   background-size: cover;
   background-position: 50% 70%;
-  display: flex;
-  margin-bottom: 40px; }
+  display: flex; }
   .hero .hero-content {
     font-size: 20px;
     width: 80%;
@@ -218,22 +217,15 @@ footer {
     color: #fff;
     margin-left: 20px; }
 
-.blog-para {
-  line-height: 1.5em; }
-  .blog-para h1 {
-    color: #FE5F55; }
-
 .banner {
   width: 100%;
-  height: 200px;
-  background-color: #65c3cd;
   margin-bottom: 40px; }
   .banner h1 {
-    color: white;
+    color: #FE5F55;
     margin: 0 auto;
     padding: 0px; }
   .banner a, .banner p {
-    color: white;
+    color: #FE5F55;
     text-decoration: none; }
 
 .banner-content {
@@ -268,7 +260,6 @@ footer {
 .about-img-container {
   width: 180px;
   height: 180px; }
-
   @media (max-width: 600px) {
     .about-img-container {
       min-width: 300px;
@@ -277,7 +268,6 @@ footer {
     .about-img-container {
       min-width: 300px;
       min-height: 200px; } }
-
   .about-img-container img {
     width: 100%;
     height: 100%; }
@@ -289,7 +279,21 @@ footer {
   background-size: cover;
   background-position: center; }
 
+.about-img-gill {
+  width: 100%;
+  height: 100%;
+  background: url("../img/gill.jpg");
+  background-size: cover;
+  background-position: center; }
+
 .about-info {
   padding: 20px;
   display: block;
   width: 75%; }
+
+.blog-para {
+  line-height: 1.5em; }
+  .blog-para h1 {
+    color: #FE5F55; }
+  .blog-para p {
+    color: #000000; }
