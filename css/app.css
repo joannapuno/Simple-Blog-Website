@@ -91,17 +91,20 @@ footer .footer-container {
   margin: 10px 0px;
   display: flex;
   align-items: center; }
+  .about-card .about-info {
+    padding: 20px;
+    display: block;
+    width: 75%; }
+    .about-card .about-info a {
+      text-decoration: none; }
+  .about-card h2 {
+    margin: 0 auto; }
+  .about-card p {
+    margin: 10px auto; }
 
 .about-img-container {
   width: 180px;
   height: 180px; }
-
-.about-img {
-  width: 100%;
-  height: 100%;
-  background-color: #222; }
-
-.about-info {
-  padding: 20px;
-  display: block;
-  width: 75%; }
+  .about-img-container img {
+    width: 100%;
+    height: 100%; }
