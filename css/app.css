@@ -217,7 +217,6 @@ footer .footer-container {
 
 .about-card {
   width: 100%;
-  height: 200px;
   padding: 10px;
   margin: 10px 0px;
   display: flex;
@@ -232,6 +231,13 @@ footer .footer-container {
     margin: 0 auto; }
   .about-card p {
     margin: 10px auto; }
+  @media (max-width: 600px) {
+    .about-card {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch; }
+      .about-card .about-info {
+        padding: 20px 0px; } }
 
 .about-img-container {
   width: 180px;
